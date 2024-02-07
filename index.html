@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="styles.css">
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <style>
+        input {
+          text-align: center;
+        }
+        ::-webkit-input-placeholder {
+          text-align: center;
+        }
+        :-moz-placeholder {
+          text-align: center;
+        }
+      </style>
 </head>
 <body>
     <!-- header -->
@@ -14,8 +25,8 @@
         <img src="./assets/logo/logo.png" alt="" class="logo">
          <ul class="main-nav-list">
             <li><a href="#" class="main-nav-link">Home</a></li>
-            <li><a href="#" class="main-nav-link">Work</a></li>
-            <li><a href="#" class="main-nav-link">Contact</a></li>
+            <li><a href="#project" class="main-nav-link">Work</a></li>
+            <li><a href="#form-box" class="main-nav-link">Contact</a></li>
          </ul>
     </header>
   
@@ -91,45 +102,50 @@
                  <div class="time-line-description">
                     <div class="mini-circle"></div>
                     <div class="content">
-                        <h2 class="content-timeline-title">React</h2>
+                        <h2 class="content-timeline-title">Web Development</h2>
                         <p class="content-timeline-description">
-                            I have beginner level Knowledge about react. React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Fuga, aspernatur fugiat? Mollitia doloremque vero corporis distinctio consequuntur suscipit aspernatur laborum
                         </p>
                     </div>
                  </div>
                  <div class="time-line-description">
                     <div class="mini-circle"></div>
                     <div class="content">
-                        <h2 class="content-timeline-title">Java Script</h2>
+                        <h2 class="content-timeline-title">Web Development</h2>
                         <p class="content-timeline-description">
-                            JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Fuga, aspernatur fugiat? Mollitia doloremque vero corporis distinctio consequuntur suscipit aspernatur laborum
                         </p>
                     </div>
                  </div>
                  <div class="time-line-description">
                     <div class="mini-circle"></div>
                     <div class="content">
-                        <h2 class="content-timeline-title">Tailwind CSS</h2>
+                        <h2 class="content-timeline-title">Web Development</h2>
                         <p class="content-timeline-description">
-                            Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables.
-			</p>
-                    </div>
-                 </div>
-                 <div class="time-line-description">
-                    <div class="mini-circle"></div>
-                    <div class="content">
-                        <h2 class="content-timeline-title">CSS</h2>
-                        <p class="content-timeline-description">
-                            Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Fuga, aspernatur fugiat? Mollitia doloremque vero corporis distinctio consequuntur suscipit aspernatur laborum
                         </p>
                     </div>
                  </div>
                  <div class="time-line-description">
                     <div class="mini-circle"></div>
                     <div class="content">
-                        <h2 class="content-timeline-title">HTML</h2>
+                        <h2 class="content-timeline-title">Web Development</h2>
                         <p class="content-timeline-description">
-                          The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Fuga, aspernatur fugiat? Mollitia doloremque vero corporis distinctio consequuntur suscipit aspernatur laborum
+                        </p>
+                    </div>
+                 </div>
+                 <div class="time-line-description">
+                    <div class="mini-circle"></div>
+                    <div class="content">
+                        <h2 class="content-timeline-title">Web Development</h2>
+                        <p class="content-timeline-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Fuga, aspernatur fugiat? Mollitia doloremque vero corporis distinctio consequuntur suscipit aspernatur laborum
                         </p>
                     </div>
                  </div>
@@ -137,14 +153,18 @@
         </div>
     </section>
 
-    <section class="project">
+    <section class="project" id="project">
         <h1 class="project-title">Projects</h1>
         <p class="youtube-description">
             Take a look on my Projects 
+            <br> Tap on the images to see them
         </p>
         <div class="videos">
             <div class="project-file">
-                <img class="images" src="./assets/links/disney.png" alt="">
+                <a href="https://dinenyplus.web.app" 
+                target="_blank"
+                ><img class="images" src="./assets/links/disney.png" alt=""></a> -->
+                
                 <h2 class="main-project-title">DISNEY+ HOTSTAR</h2>
                 <p class="project-description">
                     Using React Js , MongoDb and Firebase,
@@ -152,43 +172,41 @@
                     Also Used styled Components For Styling and animation and 
                     used DataBase to fetch Data.
                 </p>
-                <a href="https://dinenyplus.web.app" 
-                target="_blank"
-                class="btn">Take a Look</a>
             </div>
 
             <div class="project-file">
-                <img class="images" src="./assets/links/foodginie.png" alt="">
-                <h2 class="main-project-title">Food Ginie</h2>
+                <a href="https://foodginie.netlify.app" 
+                target="_blank"
+                ><img class="images" src="./assets/links/foodginie.png" alt="">
+                  </a>
+                 <h2 class="main-project-title">Food Ginie</h2>
                 <p class="project-description">
                     The food delivery website made using HTML, CSS and JavaScript. 
                     Which includes the menu of different restaurants. 
                     You can give feed back of services, 
                     you can know about us and the website.
                 </p>
-                <a href="https://foodginie.netlify.app" 
-                target="_blank"
-                class="btn">Take a Look</a>
+               
             </div>
 
             <div class="project-file">
-                <img class="images" src="./assets/links/razorpay.png" alt="">
-                <h2 class="main-project-title">RAZOR PAY CLONE</h2>
+                <a href="https://razorpay019.netlify.app/" 
+                target="_blank"
+               ><img class="images" src="./assets/links/razorpay.png" alt=""></a>
+                 <h2 class="main-project-title">RAZOR PAY CLONE</h2>
                 <p class="project-description">
                     The clone of the Official Razor Pay site,
                     the frontend is created using Tailwind CSS, CSS, HTML.
                     Fully Responsive, Combines of necessary animations,
                     and with a footer which contains contact details.
                 </p>
-                <a href="https://razorpay019.netlify.app/" 
-                target="_blank"
-                class="btn">Take a Look</a>
+                
             </div>
         </div>
     </section>
 
     <section class="final">
-        <div class="form-box">
+        <div class="form-box" id="form-box">
             <h1 class="form-title">Contact</h1>
             <div class="form-bg">
                 <form id="form">
@@ -206,13 +224,17 @@
                             placeholder="Subject E-mail" class="subject-input">
                         </div>
                         <div class="message-box">
-                            <label for="message" class="message-title">Subject:</label>
+                            <label for="message" class="message-title">Message:</label>
                             <textarea type="text" id="message" name="message"
                             placeholder="E-mail message" class="message-input"></textarea>
                         </div>
                         <div id="buttons">
-                            <button class="send-button" type="submit" disabled>Send</button>
-                            <button class="reset-button" type="reset" >Reset</button>
+                            <button class="button-send" type="submit" role="button">
+                                <span class="text">Send</span>
+                              </button>
+                            <button class="button-reset" type="Reset" role="button">
+                                <span class="text">Reset</span>
+                              </button>
                         </div>
                     </div>
                 </form>

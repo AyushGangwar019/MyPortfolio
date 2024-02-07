@@ -34,7 +34,7 @@ const targetY = window.innerHeight *0.8;
 function scrollHandler(e){
     const {scrollY} = window;
     up = scrollY < prevScrollY;
-    down= !up;
+    down = !up;
     const timeLineRect = timeline.getBoundingClientRect();
     const lineRect = line.getBoundingClientRect();
 
